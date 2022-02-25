@@ -15,3 +15,7 @@ test("subtracao", () => {
 test("subtracao decimal", () => {
   expect(calculator.subtract(8.5, 2)).toBeCloseTo(6.5);
 });
+
+test("multiplicacao", () => {
+  expect(calculator.multiply(8, 2)).toBe(16);
+});

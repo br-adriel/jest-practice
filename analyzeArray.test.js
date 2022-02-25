@@ -1,1 +1,7 @@
 const analyzeArray = require("./analyzeArray");
+
+const arr = [6, 10, 2, 8, 4];
+
+test("Media", () => {
+  expect(analyzeArray(arr).average).toBe(6);
+});

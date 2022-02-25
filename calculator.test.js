@@ -19,3 +19,7 @@ test("subtracao decimal", () => {
 test("multiplicacao", () => {
   expect(calculator.multiply(8, 2)).toBe(16);
 });
+
+test("multiplicacao decimal", () => {
+  expect(calculator.multiply(10, 1.5)).toBeCloseTo(15);
+});

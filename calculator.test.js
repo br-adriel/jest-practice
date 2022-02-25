@@ -23,3 +23,7 @@ test("multiplicacao", () => {
 test("multiplicacao decimal", () => {
   expect(calculator.multiply(10, 1.5)).toBeCloseTo(15);
 });
+
+test("divisao", () => {
+  expect(calculator.divide(8, 2)).toBe(4);
+});

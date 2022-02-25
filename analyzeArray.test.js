@@ -9,3 +9,7 @@ test("Media", () => {
 test("Minimo", () => {
   expect(analyzeArray(arr).min).toBe(2);
 });
+
+test("Maximo", () => {
+  expect(analyzeArray(arr).max).toBe(10);
+});

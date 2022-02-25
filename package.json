@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/br-adriel/jest-practice/issues"
   },
-  "homepage": "https://github.com/br-adriel/jest-practice#readme"
+  "homepage": "https://github.com/br-adriel/jest-practice#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }

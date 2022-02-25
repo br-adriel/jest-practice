@@ -11,3 +11,7 @@ test("Palavra ja capitalizada", () => {
 test("Frase", () => {
   expect(capitalize("as palavras")).toBe("As palavras");
 });
+
+test("Frase ja capitalizada", () => {
+  expect(capitalize("As palavra")).toBe("As palavra");
+});

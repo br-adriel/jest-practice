@@ -13,3 +13,7 @@ test("Minimo", () => {
 test("Maximo", () => {
   expect(analyzeArray(arr).max).toBe(10);
 });
+
+test("Comprimento", () => {
+  expect(analyzeArray(arr).length).toBe(5);
+});

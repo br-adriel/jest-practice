@@ -11,3 +11,7 @@ test("soma decimal", () => {
 test("subtracao", () => {
   expect(calculator.subtract(8, 2)).toBe(6);
 });
+
+test("subtracao decimal", () => {
+  expect(calculator.subtract(8.5, 2)).toBeCloseTo(6.5);
+});

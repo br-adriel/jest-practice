@@ -19,3 +19,7 @@ test("Frase ja capitalizada", () => {
 test("Frase com maiusculas e minusculas", () => {
   expect(capitalize("aS pAlAVraS")).toBe("AS pAlAVraS");
 });
+
+test("Simbolo no inicio", () => {
+  expect(capitalize("!as palavras")).toBe("!as palavras");
+});

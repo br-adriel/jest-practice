@@ -1,6 +1,6 @@
 # Prática com jest :test_tube:
 
-Alguns arquivos que fiz ao praticar testes em javascript usando o [Jes](https://jestjs.io/pt-BR/).
+Alguns arquivos que fiz ao praticar testes em javascript usando o [Jest](https://jestjs.io/pt-BR/).
 
 Arquivos constuídos durante uma lição do [The Odin Project](https://www.theodinproject.com/).
 
